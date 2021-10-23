@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    margin: 4rem auto;
+    text-align: center;
+    font-weight: bold;
+    color:#000000;
+    font-size: 2rem;
+}
+
+p{
+    line-height: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family :sans-serif;
+    color: rgb(43, 35, 35);
+    font-size:1.4rem;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+.animation-bar{
+    height : 6px;
+    /* width: 100%; */
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, rgb(230, 25, 25), rgb(70, 4, 250));
+    transition: all 0.1s ease-out;
+}
